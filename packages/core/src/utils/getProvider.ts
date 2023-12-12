@@ -28,7 +28,7 @@ export function getProvider(
     } else if (memoKey.startsWith('wss')) {
         provider = new ethers.WebSocketProvider(memoKey);
     } else {
-        const apiKey = 'p_LSgTIj_JtEt3JPM7IZIZFL1a70yvQJ'; 
+        const apiKey = '0_k7oCEgz0T12XLeYvs4NetupsnupbX5'; 
         provider = new ethers.AlchemyProvider(alchemyNetwork, apiKey);
     }
 
